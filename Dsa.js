@@ -1,6 +1,5 @@
 //  FUNCTIONS AND IF-ELSE STATEMENTS
 
-
 // function greet () {
 //     console.log("Hello, DSA!");
 // }
@@ -13,7 +12,6 @@
 
 // greet("DSA");  // Calling the function with an argument
 // greet("Alice");  // Calling the function with another argument
-
 
 // function greet (name) {
 //      console.log("Hello, " + name + "!");
@@ -28,13 +26,11 @@
 // let result = sum(5, 10);  // Calling the function and storing the result
 // console.log(result);  // Output: 15
 
-
 // function sum (a,b){
-//      let add = a + b;  
+//      let add = a + b;
 //      console.log("The sum is: " + add);  // Output the sum
 // }
 // sum(5, 10);  // Calling the function with two numbers
-
 
 // function multiply(a,b){
 //      let product = a * b;
@@ -42,7 +38,6 @@
 // }
 // let result = multiply(5, 10);  // Calling the function and storing the result
 // console.log("The product is: " + result);  // Output: The product is:
-
 
 // function EligibleForVoting(age){
 //      if(age >= 18){
@@ -52,7 +47,6 @@
 //           }
 // }
 // EligibleForVoting(10);  // Calling the function with an age that meets the condition
-
 
 // function EligibleForVoting(age){
 //      if(age < 0){
@@ -72,3 +66,50 @@
 // }
 
 // checkEvenOdd(10);  // Calling the function with an even number
+
+// *****************************************************
+
+//LOOPS AND ITERATIONS
+
+//    for(let i = 0; i< 8; i++){
+//      console.log("Iteration number: " + i);
+//    }
+
+//    for(let i = 0; i <=4; i++){
+//      console.log("Current number: " + i);
+//    }
+
+// for (let i = 2; i < 9; i = i + 2) {
+//   console.log("Hello, DSA! " + i);
+// }
+
+// for(let i = 5;  i > 0; i--){
+//      console.log("Hello, DSA! " + i);
+// }
+
+// for(let i  = 5; i < 4; i++){
+//      console.log("Hello, DSA! " + i);
+// } // This loop will not execute because the condition is false from the start
+
+// for(let i = 1; i > 0; i++){
+//      console.log("Hello, DSA! " + i);
+// } // This loop will run indefinitely because the condition is always true
+
+// function greet(i) {
+//   console.log("Hello, DSA!" + i);
+// }
+// for (let i = 0; i < 12; i++) {
+//   greet(i);
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// for (let i = 0; i < arr.length; i++){
+//      console.log("Element at index " + i + ": " + arr[i]);
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] % 2 === 1) {
+//     console.log("Odd number: " + arr[i]);
+//   }
+// }
