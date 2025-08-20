@@ -113,3 +113,75 @@
 //     console.log("Odd number: " + arr[i]);
 //   }
 // }
+
+// let i = 0;
+// while (i < 6) {
+//   console.log("Hello, DSA! " + i);
+//   i++;
+// }
+
+// let i = 0;
+// while (i < 6) {
+//   if (i % 2 === 0) {
+//     console.log("Even number: " + i);
+//   } else {
+//     console.log("Odd number: " + i);
+//   }
+//   i++;
+// }
+
+// let i = 0;
+// let age = 20;
+// while(i < 6) {
+//   if (age >= 18) {
+//     console.log("You are eligible for voting.");
+//   } else {
+//     console.log("You are not eligible for voting.");
+//   }
+//   i++;
+// }
+
+
+
+//CHECK THE POSTIVE OR NEGATIVE NUMBER
+
+// function checkNUmber(num) {
+//     if (num > 0) {
+//         console.log("Postive NUmber" + num)
+//     } else {
+//         console.log("Negative Number" + num)
+//     }
+// }
+
+//  checkNUmber(-10)
+
+// WRITE A  FUNCTION THAT SEARCHES FOR AN ELEMENT IN AN ARRAY AND RETURNS ITS INDEX IF FOUND, OR -1 IF NOT FOUND
+
+// function searchelement (arr, element){
+//   for (let i = 0; i < arr.length; i++){
+//     if(arr[i] === element){
+//       return i
+//     }
+//   }
+//   return -1
+// }
+//  let arr = [3,6,8,20,40,50];
+// let result = searchelement(arr,60)
+// console.log(result);
+
+
+//  WRITE A FUNCTION THAT RETURNS THE NUMBER OF NEGETIVES NUMBERS IN AN ARRAY
+
+
+// function countNegatives(arr){
+//   let count = 0;
+//   for(let i = 0; i < arr.length; i++){
+//     if(arr[i] < 0){
+//       count++
+//     }
+//   }
+//   return count
+// }
+//  let arr = [3, -6, 8, -20, 40, -50];
+// let result = countNegatives(arr);
+// console.log("Number of negative numbers: " + result);  
