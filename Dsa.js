@@ -67,7 +67,7 @@
 
 // checkEvenOdd(10);  // Calling the function with an even number
 
-// *****************************************************
+// ***********************  2ND DAY PRACTICE ******************************
 
 //LOOPS AND ITERATIONS
 
@@ -114,6 +114,8 @@
 //   }
 // }
 
+// ************************      3RD DAY PRACTICE      ************************
+
 // let i = 0;
 // while (i < 6) {
 //   console.log("Hello, DSA! " + i);
@@ -141,8 +143,6 @@
 //   i++;
 // }
 
-
-
 //CHECK THE POSTIVE OR NEGATIVE NUMBER
 
 // function checkNUmber(num) {
@@ -169,9 +169,7 @@
 // let result = searchelement(arr,60)
 // console.log(result);
 
-
 //  WRITE A FUNCTION THAT RETURNS THE NUMBER OF NEGETIVES NUMBERS IN AN ARRAY
-
 
 // function countNegatives(arr){
 //   let count = 0;
@@ -184,4 +182,75 @@
 // }
 //  let arr = [3, -6, 8, -20, 40, -50];
 // let result = countNegatives(arr);
-// console.log("Number of negative numbers: " + result);  
+// console.log("Number of negative numbers: " + result);
+
+//***********************   4th DAY PRACTICE  ****************** */
+
+// ******  PROBLEM - WRITE A FUNCTION THAT RETURN A LARGEST NUMBER OF AN ARRAY *********
+
+// function findlargestnumber(arr) {
+//     let largest = null
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > largest) {
+//         largest = arr[i]
+//       }
+//     }
+//     return largest
+// }
+
+// let arr = [2, 5, 20, 3, 32, 10,45]
+
+// let result = findlargestnumber(arr)
+
+// console.log(result)
+
+// function findlargest(arr) {
+//     let largest = -Infinity;
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > largest) {
+//             largest = arr[i]
+//         }
+//     }
+//     return largest
+// }
+
+// let arr = [-3, -4, -2, -5]
+// let result = findlargest(arr)
+// console.log(result)
+
+// function findlargestnumber(arr) {
+//     let largest = arr[0];
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > largest) {
+//             largest = arr[i]
+//         }
+//     }
+//     return largest;
+// }
+
+// let arr = [3, 5, -3, 6, 8]
+// let result = findlargestnumber(arr)
+// console.log(result)
+
+
+// *********** PROBLEM - WRITE A FUNCTION THAT RETURNS THE SMALLEST NUMBER OF AN ARRAY *********
+
+// function findsmallestnumber(arr) {
+//     let smallest = Infinity
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] < smallest) {
+//             smallest = arr[i]
+//         }
+//     }
+//     return smallest
+// }
+
+// let arr = [1, 2, 3, 4, 5]
+// let result = findsmallestnumber(arr)
+// console.log(result)
+
+
+// ************ ABOUT THE INFINITY AND -INFINITY *************
+// In JavaScript, Infinity and -Infinity are special numeric values that represent numbers beyond the upper and lower limits of what JavaScript can represent.
+
+// Infinity represents a value that is larger than any finite number, while -Infinity represents a value that is smaller than any finite number. They are often used in mathematical calculations and comparisons.
