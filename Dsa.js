@@ -254,3 +254,103 @@
 // In JavaScript, Infinity and -Infinity are special numeric values that represent numbers beyond the upper and lower limits of what JavaScript can represent.
 
 // Infinity represents a value that is larger than any finite number, while -Infinity represents a value that is smaller than any finite number. They are often used in mathematical calculations and comparisons.
+
+
+// ******************    5TH DAY PRACTICE    ******************
+
+// function findsecondlargest(arr) {
+//     let firstlargest = -Infinity;
+//     let secondlargest = -Infinity;
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > firstlargest) {
+//             secondlargest = firstlargest
+//             firstlargest = arr[i]
+//         } else if (arr[i] > secondlargest) {
+//             secondlargest = arr[i]
+//         }
+//     }
+// return secondlargest
+// }
+
+// let arr = [4, 6, 10, 22, 32, 34]
+// let result = findsecondlargest(arr)
+// console.log(result)
+
+// ******** CORNER CASE -1 = IF ARRAY IS EMPTY  ****************
+
+// function findsecondlargest(arr) {
+//     if (arr.length < 2) return null
+//     let firstlargestnumber = -Infinity;
+//     let secondlargestnumber = -Infinity;
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > firstlargestnumber) {
+//             secondlargestnumber = firstlargestnumber
+//             firstlargestnumber = arr[i]
+//         } else if (arr[i] > secondlargestnumber && arr[i] !== firstlargestnumber) {
+//             secondlargestnumber = arr[i]
+//         }
+//     }
+//     return secondlargestnumber
+// }
+
+// let arr = []
+// let result = findsecondlargest(arr)
+// console.log(result)
+
+
+// ************* CORNER CASE -2 = IF ARRAY HAS DUPLICATE ELEMENT ********
+
+// function findsecondlargest(arr) {
+//     if (arr.length < 2) return null
+//     let firstlargestnumber = -Infinity;
+//     let secondlargestnumber = -Infinity;
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > firstlargestnumber) {
+//             secondlargestnumber = firstlargestnumber
+//             firstlargestnumber = arr[i]
+//         } else if (arr[i] > secondlargestnumber && arr[i] !== firstlargestnumber) {
+//             secondlargestnumber = arr[i]
+//         }
+//     }
+//     return secondlargestnumber
+// }
+
+// let arr = [10, 20, 8, 20, 5, 4]
+// let result = findsecondlargest(arr)
+// console.log(result)
+
+// ************* CORNER CASE -3 = IF ARRAY HAS NEGATIVE ELEMENT   ***********
+
+// function findsecondlargest(arr) {
+//     if (arr.length < 2) return null
+//     let firstlargestnumber = -Infinity;
+//     let secondlargestnumber = -Infinity;
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > firstlargestnumber) {
+//             secondlargestnumber = firstlargestnumber
+//             firstlargestnumber = arr[i]
+//         } else if (arr[i] > secondlargestnumber && arr[i] !== firstlargestnumber) {
+//             secondlargestnumber = arr[i]
+//         }
+//     }
+//     return secondlargestnumber
+// }
+
+// let arr = [10, -20, -8, -20, -5, -4]
+// let result = findsecondlargest(arr)
+// console.log(result)
+
+// ********* LOOP WITH IN A LOOP ***************
+
+
+// for (let i = 0; i < 5; i++){
+//     for (let j = 0; j < 5; j++){
+//         console.log("loop in loop" )
+//     }
+// }
+
+// for (let i = 0; i < 5; i++) {
+//     for (let j = 0; j < 5; j++) {
+//         console.log(`i = ${i}, j = ${j}`)
+//     }
+// }
