@@ -473,3 +473,86 @@
 //     }
 //     console.log(row)
 // }
+
+
+// ****** 7TH DAY PRACTICE  ************
+
+// let n = 5;
+// for (let i = 0; i < n; i++){
+//     let row = "";
+//     let toggle = 1
+//     for (let j = 0; j <= i; j++){
+//         row = row + toggle
+//         if (toggle === 0) {
+//             toggle = 1
+//         } else {
+//             toggle  = 0
+//         }
+//     }
+//     console.log(row)
+// }
+
+
+// let n = 5;
+// let toggle = 1
+// for (let i = 0; i < n; i++){
+//     let row = "";
+//     for (let j = 0; j <= i; j++){
+//         row = row + toggle
+//         if (toggle === 0) {
+//             toggle = 1
+//         } else {
+//             toggle  = 0
+//         }
+//     }
+//     console.log(row)
+// }
+
+
+// **** PROB = WRITE A FUNCTION THAT RETUN A COUNTS OF DIGITS  IN NUMBER *****
+
+
+// function countsdigits(n) {
+//     let count = ""
+//     while (n > 0) {
+//         n = Math.floor(n / 10)
+//         count++
+//     }
+//     return count;
+// }
+
+// let num = 34594;
+// let result = countsdigits(num)
+// console.log(result)
+
+// ***** CORNER CASE - 1 = IF NUMBER IS NEGATIVE  **********
+
+// function countsdigits(n) {
+//     n = Math.abs(n)
+//     let count = 0;
+//     while (n > 0) {
+//         n = Math.floor(n / 10)
+//         count++
+//     }
+//     return count;
+// }
+
+// let num = -34594;
+// let result = countsdigits(num)
+// console.log(result)
+
+// ******* CORNER CASE -2 = IF NUMBER IS 0  **************
+
+// function countsdigits(n) {
+//     if(n === 0) return 1
+//     let count = 0;
+//     while (n > 0) {
+//         n = Math.floor(n / 10)
+//         count++
+//     }
+//     return count;
+// }
+
+// let num = 0;
+// let result = countsdigits(num)
+// console.log(result)
