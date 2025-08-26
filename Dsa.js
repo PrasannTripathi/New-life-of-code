@@ -556,3 +556,49 @@
 // let num = 0;
 // let result = countsdigits(num)
 // console.log(result)
+
+// *************** 8TH DAY PRACTICE  ******************
+
+// ***********   ABOUT TIME COMPLEXITY & SPACE COMPELXITY   ***********
+
+// IT IS USED TO MEASURE THE EFFICIENCY OF ALGORITHAM IN TERMS OF SPEED, AS THE INPUT SIZE GROWS
+
+// TIME COMPLEXITY  IS NOT EQUAL TO TIME TAKEN
+
+// ************     LINEAR SEARCH *******************
+
+// LINEAR SEARCH = SEQUENTIAL SEARCH
+
+// It checks each element in the list one by one until it finds the target element or reaches the end of the list.
+
+// Algorithm (Steps):
+
+//      1. Start from the first element.
+//      2. Compare it with the target element.
+//      3. If found, return the index.
+//      4. If not, move to the next element.
+//      5. Repeat until the element is found or the array ends.
+
+
+// Time Complexity:
+//    1. Best case: O(1) → If the target is the first element.
+//    2.Worst case: O(n) → If the target is last element or not present.
+
+
+// ********** PROB =  REMOVE DUPLICATE FROM SHORTED ARRAY  ******************
+
+
+// function removeduplicates(nums) {
+//     let k = 0
+//     for (let i = 0; i < nums.length; i++){
+//         if (nums[i] > nums[k]) {
+//             k = k + 1;
+//             nums[k] =  nums[i]
+//     }
+//     }
+//   return  k + 1
+// }
+
+// let nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+// let result = removeduplicates(nums)
+// console.log(result)
