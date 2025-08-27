@@ -602,3 +602,147 @@
 // let nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
 // let result = removeduplicates(nums)
 // console.log(result)
+
+
+// *************** 9TH DAY PRACTICE  ******************
+
+          //  ******* SUMMRIZATION ********
+
+// function greet(name) {
+// console.log("Happy Ganesh Chatruthi " + name)
+// }
+// let n = "Prasann"
+// greet(n)
+
+
+// function addnumber(a, b) {
+//     let add = a + b
+//     console.log(add)
+// }
+
+// addnumber(2,8)
+
+
+// function addnumber(a, b) {
+//     let add = a + b
+//     console.log(add)
+// }
+// let x = 20;
+// let y = 30;
+// let z = 40
+// addnumber(x, y)
+// addnumber(x, z)
+
+
+// function square(a) {
+//     let sq = a * a
+//     return sq
+// }
+
+// console.log(square(35))
+
+// function checkeligibility(age){
+//     if (age >= 18) {
+//     console.log("You are eligible")
+//     } else {
+//     console.log("You are not eligible")
+//  }
+// }
+
+// checkeligibility(17)
+
+
+// function checkEvenOdd(num) {
+//     let rem = num % 2
+//     if (rem === 0) {
+//         console.log(num + " Even NUmber")
+//     }
+//     else {
+//         console.log(num + " Odd NUmber")
+//     }
+// }
+
+// checkEvenOdd(97)
+
+// let n = 10;
+// for (let i = 0; i < n; i++){
+//     console.log("Happy Ganesh chaturthi")
+// }
+
+// for (let i = 2; i < 9; i= i + 2){
+//     console.log(`Ganesh  ${i}`)
+// }
+
+
+// for (let i = 5; i > 0; i--){
+//     console.log(`Ganesh  ${i}`)
+
+// }
+
+
+// function greet() {
+//     console.log("Happy Ganesh Chatruthi")
+// }
+// for (let i = 0; i < 8; i++){
+//     greet()
+// }
+
+
+// let arr = [2, 3, 4, 5, 6, 7, 8]
+
+// for (let i = 0; i < arr.length; i++){
+//     console.log(arr[i])
+// }
+
+// PRINTS THE ALL EVEN NUMBER IN THE ARRAY
+
+// let arr = [2, 3, 4, 5, 6, 7, 8]
+// for (let i = 0; i < arr.length; i++){
+//     if (arr[i] % 2 === 0) {
+//         console.log(` ${arr[i]} = Even Number`)
+//     }
+// }
+
+
+// function searchElement(arr, element) {
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] === element) {
+//             return i
+//         }
+//     }
+//     return -1
+// }
+
+// let arr = [5, 8, 7, 20, 25]
+// let result = searchElement(arr, 25)
+// console.log(result)
+
+// function countNegativesNumber(arr) {
+//     let count = 0;
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] < 0) {
+//             count++
+//         }
+//     }
+//     return count;
+// }
+
+// let array = [2, -3, 6, -8]
+// let result = countNegativesNumber(array)
+// console.log(result)
+
+
+// function largestNumber(arr) {
+//     let largest = -Infinity
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > largest) {
+//             largest = arr[i]
+//         }
+//     }
+//     return largest;
+// }
+
+// let arr = [5, 12, 20, 28, 54, 22]
+// let result = largestNumber(arr)
+// console.log(result)
+
