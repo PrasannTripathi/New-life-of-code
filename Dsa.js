@@ -606,7 +606,7 @@
 
 // *************** 9TH DAY PRACTICE  ******************
 
-          //  ******* SUMMRIZATION ********
+          //  **************** Revise ********
 
 // function greet(name) {
 // console.log("Happy Ganesh Chatruthi " + name)
@@ -745,4 +745,132 @@
 // let arr = [5, 12, 20, 28, 54, 22]
 // let result = largestNumber(arr)
 // console.log(result)
+
+
+// ************* 10th day practice  ****************************
+
+
+// ********************  Revise    ***********************
+// function findSecondLargest(arr) {
+//     let firstLargest = -Infinity
+//     let secondLargest = -Infinity
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > firstLargest) {
+//             secondLargest = firstLargest
+//             firstLargest = arr[i]
+//         }
+//         else if (arr[i] > secondLargest) {
+//             secondLargest = arr[i]
+//         }
+//     }
+//        return secondLargest
+// }
+
+// let arr = [4, 5, 10, 14, 18]
+// let result = findSecondLargest(arr)
+// console.log(result)
+
+// ******** if array has duplicate ******************
+
+// function findSecondLargest(arr) {
+//     let firstLargest = -Infinity
+//     let secondLargest = -Infinity
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > firstLargest) {
+//             secondLargest = firstLargest
+//             firstLargest = arr[i]
+//         }
+//         else if (arr[i] > secondLargest && arr[i] !== firstLargest) {
+//             secondLargest = arr[i]
+//         }
+//     }
+//        return secondLargest
+// }
+
+// let arr = [4, 5, 10, 14, 8, 14]
+// let result = findSecondLargest(arr)
+// console.log(result)
+
+
+// for (let i = 0; i < 4; i++){
+//     for (let j = 0; j < 4; j++){
+//         console.log("Happy Ganesha")
+//     }
+// }
+
+// for (let i = 0; i < 4; i++){
+//     for (let j = 0; j < 4; j++){
+//         console.log(` i = ${i}, j = ${j}`)
+//     }
+// }
+
+// for (let i = 0; i < 4; i++){
+//     for (let j = 0; j <= i; j++){
+//         console.log(` i = ${i}, j = ${j}`)
+//     }
+// }
+
+// for (let i = 0; i < 5; i++){
+//     let row = ""
+//     for (let j = 0; j < i +1; j++){
+//         row = row + " * "
+//     }
+//     console.log(row)
+// }
+
+// for (let i = 0; i < 5; i++){
+//     let row = ""
+//     for (let j = 0; j < i +1; j++){
+//         row = row + (j + 1)
+//     }
+//     console.log(row)
+// }
+
+// for (let i = 0; i < 5; i++){
+//     let row = ""
+//     for (let j = 0; j < i +1; j++){
+//         row = row + (i + 1)
+//     }
+//     console.log(row)
+// }
+
+
+// for (let i = 4; i > 0; i--){
+//     let row = ""
+//     for (let j = 0; j <= i; j++){
+//         row = row + (j + 1)
+//     }
+//     console.log(row)
+// }
+
+
+// for (let i = 0; i < 5; i++){
+//     let row = ""
+//     for (let j = 0; j < 5 -(i +1); j++){
+//         row = row + " "
+//     }
+//     for (let k = 0; k <= i; k++){
+//         row = row + "*"
+//     }
+
+//     console.log(row)
+// }
+
+// let n = 5;
+// for (let i = 0; i < n; i++){
+//     let row = ""
+//     let toggle = 1
+//     for (let j = 0; j < i; j++){
+//         row = row + toggle
+//         if (toggle === 0) {
+//             toggle = 1
+//         }
+//         else {
+//             toggle = 0
+//         }
+//     }
+//     console.log(row)
+// }
+
+
 
