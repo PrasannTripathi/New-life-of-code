@@ -873,4 +873,77 @@
 // }
 
 
+// ************* 11TH DAY PRACTICE  ******************
 
+// function countDigit(n) {
+//     if (n === 0) {
+//         return 1
+//     }
+//     n = Math.abs(n)
+//     let count = 0;
+//     while (n > 0) {
+//         n = Math.floor(n / 10)
+//         count++
+//     }
+//     return count;
+// }
+
+// let n = -456;
+// let result = countDigit(n)
+// console.log(result)
+
+// function checkPalindrom(n) {
+//     if(n < 0) return false
+//     let rev = 0;
+//     let ncopy = n
+//     while (n > 0) {
+//       let  rem = n % 10;
+//         rev = (10 * rev) + rem;
+//         n = Math.floor(n/10)
+//     }
+//     if (rev === ncopy) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// let n = 1331
+// let result = checkPalindrom(n)
+// console.log(result)
+
+
+// function checkPalindrom(n) {
+//     if (n < 0) return false
+//     let rev = 0;
+//     let ncopy = n
+//     while (n > 0) {
+//         let rem = n % 10;
+//         rev = (10 * rev) + rem;
+//         n = Math.floor(n / 10)
+//     }
+//     return rev === ncopy
+// }
+
+// let n = -1331
+// let result = checkPalindrom(n)
+// console.log(result)
+
+
+// function reverseInteger(n) {
+//     let ncopy = n
+//     n = Math.abs(n)
+//     let rev = 0;
+//     while (n > 0) {
+//        let lastDigit = n % 10;
+//         rev = (10 * rev) + lastDigit
+//         n = Math.floor(n/10)
+//     }
+//     let limit = Math.pow(2, 31)
+//     if(rev < -limit || rev > limit) return 0
+//     return ncopy < 0? -rev : rev
+// }
+
+// let n = -234584
+// let result = reverseInteger(n)
+// console.log(result)
