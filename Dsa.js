@@ -947,3 +947,76 @@
 // let n = -234584
 // let result = reverseInteger(n)
 // console.log(result)
+
+// **************** 12TH DAY PRACTICE  ******************
+
+
+// ************* Remove Duplicate   ****************
+
+// function removeDuplicate(arr) {
+//     let x = 0;
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > arr[x]) {
+//         x = x + 1
+//         arr[x] = arr[i]
+//     }
+//     }
+//     return x+ 1
+// }
+
+// let arr = [1, 1, 1, 2, 2, 3, 3, 4,]
+// let result = removeDuplicate(arr)
+// console.log(result)
+
+// ***************  Remove Element ***************
+
+// function removeElement(arr, val) {
+//     let x = 0;
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] !== val) {
+//             arr[x] = arr[i]
+//             x = x + 1
+//         }
+//     }
+//     return x;
+// }
+
+// let arr = [3, 4, 5, 6, 7, 3, 8, 9, 3]
+// let result = removeElement(arr, 3)
+// console.log(result)
+
+
+// ****************  Reverse the String ******************
+
+// function reverseString(s) {
+//     let len = s.length;
+//     let halfLen = Math.floor(len / 2)
+
+//     for (let i = 0; i < halfLen; i++){
+//         let temp = s[i];
+//         s[i] = s[len - 1 - i];
+//         s[len-1-i] = temp
+//     }
+//     return s;
+// }
+
+// let s = ["p", "r", "a", "s", "a", "n", "n"]
+// let result = reverseString(s)
+// console.log(result)
+
+
+// *************  Two Sum ************
+
+// function twoSum(nums, target) {
+//     for (let i = 0; i < nums.length; i++){
+//         for (let j = 0; j < i; j++){
+//             if (nums[i] + nums[j] === target) {
+//                 return [j, i]
+//             }
+//         }
+//     }
+// }
+
+// let nums = [2, 5, 4, 3, 6]
+// let result = twoSum(nums, 9)
+// console.log(result)
