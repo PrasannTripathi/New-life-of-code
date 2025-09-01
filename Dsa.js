@@ -1020,3 +1020,44 @@
 // let nums = [2, 5, 4, 3, 6]
 // let result = twoSum(nums, 9)
 // console.log(result)
+
+
+// ****************** 13TH DAY PRACTICE  ******************
+
+// ************** Reverse a String ***************
+
+// function reverseString(s) {
+//     let len = s.length;
+//     let halfLength = Math.floor(len / 2);
+//     for (let i = 0; i < halfLength; i++){
+//         let temp = s[i];
+//         s[i] = s[len - 1 - i];
+//         s[len - 1 - i] = temp
+//     }
+//     return s;
+// }
+
+// let s = ["A", "N", "C", "H", "A", "L"]
+// console.log(reverseString(s))
+
+
+// ************* Buy and sell stock **************
+
+// function maxProfit(prices) {
+//     let min = prices[0];
+//     let maxProfit = 0;
+//     for (let i = 1; i < prices.length; i++){
+//         if (prices[i] - min > maxProfit) {
+//             maxProfit = prices[i]-min
+//         }
+//         else {
+//             if (prices[i] < min) {
+//                 min = prices[i]
+//             }
+//         }
+//     }
+//     return maxProfit;
+// }
+
+// let prices = [2, 4, 3, 6, 7, 9, 5];
+// console.log(maxProfit(prices))
