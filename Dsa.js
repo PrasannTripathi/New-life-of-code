@@ -232,7 +232,6 @@
 // let result = findlargestnumber(arr)
 // console.log(result)
 
-
 // *********** PROBLEM - WRITE A FUNCTION THAT RETURNS THE SMALLEST NUMBER OF AN ARRAY *********
 
 // function findsmallestnumber(arr) {
@@ -249,12 +248,10 @@
 // let result = findsmallestnumber(arr)
 // console.log(result)
 
-
 // ************ ABOUT THE INFINITY AND -INFINITY *************
 // In JavaScript, Infinity and -Infinity are special numeric values that represent numbers beyond the upper and lower limits of what JavaScript can represent.
 
 // Infinity represents a value that is larger than any finite number, while -Infinity represents a value that is smaller than any finite number. They are often used in mathematical calculations and comparisons.
-
 
 // ******************    5TH DAY PRACTICE    ******************
 
@@ -296,7 +293,6 @@
 // let arr = []
 // let result = findsecondlargest(arr)
 // console.log(result)
-
 
 // ************* CORNER CASE -2 = IF ARRAY HAS DUPLICATE ELEMENT ********
 
@@ -342,7 +338,6 @@
 
 // ********* LOOP WITH IN A LOOP ***************
 
-
 // for (let i = 0; i < 5; i++){
 //     for (let j = 0; j < 5; j++){
 //         console.log("loop in loop" )
@@ -381,7 +376,6 @@
 //     }
 // }
 
-
 // **********     STAR PATTERN    *************************************
 
 // let n = 5
@@ -392,7 +386,6 @@
 //     }
 //     console.log(row)
 // }
-
 
 // let n = 4;
 // for (let i = 0; i<n; i++) {
@@ -412,7 +405,6 @@
 //     console.log(row)
 // }
 
-
 // let n = 4;
 // for (let i = 0; i<n; i++) {
 //     let row = "";
@@ -421,7 +413,6 @@
 //     }
 //     console.log(row)
 // }
-
 
 // let n = 4;
 // for (let i = 0; i < n; i++) {
@@ -432,7 +423,6 @@
 //     console.log(row)
 // }
 
-
 // let n = 4;
 // for (let i = 1; i <= n; i++) {
 //     let row = "";
@@ -441,7 +431,6 @@
 //     }
 //     console.log(row)
 // }
-
 
 // let n = 4;
 // for (let i = 0; i < n; i++) {
@@ -461,7 +450,6 @@
 //     console.log(row)
 // }
 
-
 // let n = 5;
 // for (let i = 0; i < n; i++){
 //     let row = ""
@@ -473,7 +461,6 @@
 //     }
 //     console.log(row)
 // }
-
 
 // ****** 7TH DAY PRACTICE  ************
 
@@ -492,7 +479,6 @@
 //     console.log(row)
 // }
 
-
 // let n = 5;
 // let toggle = 1
 // for (let i = 0; i < n; i++){
@@ -508,9 +494,7 @@
 //     console.log(row)
 // }
 
-
 // **** PROB = WRITE A FUNCTION THAT RETUN A COUNTS OF DIGITS  IN NUMBER *****
-
 
 // function countsdigits(n) {
 //     let count = ""
@@ -579,14 +563,11 @@
 //      4. If not, move to the next element.
 //      5. Repeat until the element is found or the array ends.
 
-
 // Time Complexity:
 //    1. Best case: O(1) → If the target is the first element.
 //    2.Worst case: O(n) → If the target is last element or not present.
 
-
 // ********** PROB =  REMOVE DUPLICATE FROM SHORTED ARRAY  ******************
-
 
 // function removeduplicates(nums) {
 //     let k = 0
@@ -603,10 +584,9 @@
 // let result = removeduplicates(nums)
 // console.log(result)
 
-
 // *************** 9TH DAY PRACTICE  ******************
 
-          //  **************** Revise ********
+//  **************** Revise ********
 
 // function greet(name) {
 // console.log("Happy Ganesh Chatruthi " + name)
@@ -614,14 +594,12 @@
 // let n = "Prasann"
 // greet(n)
 
-
 // function addnumber(a, b) {
 //     let add = a + b
 //     console.log(add)
 // }
 
 // addnumber(2,8)
-
 
 // function addnumber(a, b) {
 //     let add = a + b
@@ -632,7 +610,6 @@
 // let z = 40
 // addnumber(x, y)
 // addnumber(x, z)
-
 
 // function square(a) {
 //     let sq = a * a
@@ -650,7 +627,6 @@
 // }
 
 // checkeligibility(17)
-
 
 // function checkEvenOdd(num) {
 //     let rem = num % 2
@@ -673,12 +649,10 @@
 //     console.log(`Ganesh  ${i}`)
 // }
 
-
 // for (let i = 5; i > 0; i--){
 //     console.log(`Ganesh  ${i}`)
 
 // }
-
 
 // function greet() {
 //     console.log("Happy Ganesh Chatruthi")
@@ -686,7 +660,6 @@
 // for (let i = 0; i < 8; i++){
 //     greet()
 // }
-
 
 // let arr = [2, 3, 4, 5, 6, 7, 8]
 
@@ -702,7 +675,6 @@
 //         console.log(` ${arr[i]} = Even Number`)
 //     }
 // }
-
 
 // function searchElement(arr, element) {
 //     for (let i = 0; i < arr.length; i++){
@@ -731,7 +703,6 @@
 // let result = countNegativesNumber(array)
 // console.log(result)
 
-
 // function largestNumber(arr) {
 //     let largest = -Infinity
 //     for (let i = 0; i < arr.length; i++){
@@ -746,9 +717,7 @@
 // let result = largestNumber(arr)
 // console.log(result)
 
-
 // ************* 10th day practice  ****************************
-
 
 // ********************  Revise    ***********************
 // function findSecondLargest(arr) {
@@ -790,7 +759,6 @@
 // let arr = [4, 5, 10, 14, 8, 14]
 // let result = findSecondLargest(arr)
 // console.log(result)
-
 
 // for (let i = 0; i < 4; i++){
 //     for (let j = 0; j < 4; j++){
@@ -834,7 +802,6 @@
 //     console.log(row)
 // }
 
-
 // for (let i = 4; i > 0; i--){
 //     let row = ""
 //     for (let j = 0; j <= i; j++){
@@ -842,7 +809,6 @@
 //     }
 //     console.log(row)
 // }
-
 
 // for (let i = 0; i < 5; i++){
 //     let row = ""
@@ -871,7 +837,6 @@
 //     }
 //     console.log(row)
 // }
-
 
 // ************* 11TH DAY PRACTICE  ******************
 
@@ -912,7 +877,6 @@
 // let result = checkPalindrom(n)
 // console.log(result)
 
-
 // function checkPalindrom(n) {
 //     if (n < 0) return false
 //     let rev = 0;
@@ -928,7 +892,6 @@
 // let n = -1331
 // let result = checkPalindrom(n)
 // console.log(result)
-
 
 // function reverseInteger(n) {
 //     let ncopy = n
@@ -949,7 +912,6 @@
 // console.log(result)
 
 // **************** 12TH DAY PRACTICE  ******************
-
 
 // ************* Remove Duplicate   ****************
 
@@ -985,7 +947,6 @@
 // let result = removeElement(arr, 3)
 // console.log(result)
 
-
 // ****************  Reverse the String ******************
 
 // function reverseString(s) {
@@ -1004,7 +965,6 @@
 // let result = reverseString(s)
 // console.log(result)
 
-
 // *************  Two Sum ************
 
 // function twoSum(nums, target) {
@@ -1020,7 +980,6 @@
 // let nums = [2, 5, 4, 3, 6]
 // let result = twoSum(nums, 9)
 // console.log(result)
-
 
 // ****************** 13TH DAY PRACTICE  ******************
 
@@ -1039,7 +998,6 @@
 
 // let s = ["A", "N", "C", "H", "A", "L"]
 // console.log(reverseString(s))
-
 
 // ************* Buy and sell stock **************
 
@@ -1061,3 +1019,66 @@
 
 // let prices = [2, 4, 3, 6, 7, 9, 5];
 // console.log(maxProfit(prices))
+
+// ************ 14TH DAY PRACTICE  ******************
+
+// var isPalindrome = function(x) {
+//     let original = x;
+//     let rev = 0;
+//     while(x > 0){
+//         let digit = x % 10;
+//         rev = 10 * rev + digit;
+//         x = Math.floor(x/10)
+//     }
+
+//    if(original === rev){
+//     return true
+//    }else{
+//     return false
+//    }
+// };
+
+// var isPalindrome = function(x) {
+//     let original = x;
+//     let rev = 0;
+//     while(x > 0){
+//         let digit = x % 10;
+//         rev = 10 * rev + digit;
+//         x = Math.floor(x/10)
+//     }
+
+//    return original === rev
+// };
+
+// var reverse = function(x) {
+//     let xcopy = x
+//     x = Math.abs(x)
+//     let rev = 0;
+//     while(x > 0){
+//         let digit = x % 10;
+//         rev = 10 * rev + digit;
+//         x = Math.floor( x / 10)
+//     }
+//     let limit = Math.pow(2, 31);
+//     if(rev < -limit || rev > limit){
+//         return 0;
+//     }
+
+//     return xcopy < 0 ? -rev : rev
+// };
+
+// function mergeTwoSortedArray(nums1, m, nums2, n) {
+//   let p1 = m - 1;
+//   let p2 = n - 1;
+
+//   for (let i = m + n - 1; i >= 0; i--) {
+//      if(p2 < 0) break;
+//     if ( p1 >= 0 && nums1[p1] > nums2[p2]) {
+//       nums1[i] = nums1[p1];
+//       p1--;
+//     } else {
+//       nums1[i] = nums2[p2];
+//       p2--;
+//     }
+//   }
+// }
