@@ -1082,3 +1082,73 @@
 //     }
 //   }
 // }
+
+// *************** 15TH DAY PRACTICE  ******************
+
+// var merge = function(nums1, m, nums2, n) {
+//     let p1 = m -1;
+//     let p2 = n - 1;
+//     for(let i = m + n - 1; i >= 0; i--){
+//         if(p2 < 0)  break;
+//         if( p1 >= 0 && nums1[p1] > nums2[p2]){
+//             nums1[i] = nums1[p1] 
+//             p1--
+//         }
+//         else{
+//             nums1[i] = nums2[p2]
+//             p2--
+//         }
+//     }
+// };
+
+// function removeZero(nums) {
+//     let x = 0;
+//     for (let i = 0; i < nums.length; i++){
+//         if (nums[i] !== 0) {
+//             nums[x] = nums[i];
+//             x = x + 1
+//         }
+//     }
+//     for (let i = x; i < nums.length; i++){
+//         nums[i] = 0
+//     }
+//     return nums;
+// }
+
+// let nums = [0, 1, 0, 3, 12]
+// console.log(removeZero(nums))
+
+
+// function removeZerosInPlace(nums) {
+//     let x = 0; // position to place next non-zero
+//     for (let i = 0; i < nums.length; i++) {
+//         if (nums[i] !== 0) {
+//             nums[x] = nums[i];
+//             x++;
+//         }
+//     }
+//     // Truncate the array to remove leftover zeros
+//     nums.length = x;
+//     return nums;
+// }
+
+// let nums = [0, 1, 0, 3, 12];
+// console.log(removeZerosInPlace(nums)); // Output: [1, 3, 12]
+
+// function findMaxConsucutiveOnes(nums) {
+//     let currentCount = 0;
+//     let maxCount = 0
+//     for (let i = 0; i < nums.length; i++) {
+//         if (nums[i] === 1) {
+//             currentCount++
+//         }
+//         else {
+//             maxCount = Math.max(currentCount, maxCount)
+//             currentCount = 0
+//         }
+//     }
+//     return Math.max(currentCount, maxCount)
+// }
+
+// let nums = [1, 1, 0, 1, 1, 1]
+// console.log(findMaxConsucutiveOnes(nums))
