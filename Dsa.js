@@ -1149,6 +1149,51 @@
 //     }
 //     return Math.max(currentCount, maxCount)
 // }
-
+ 
 // let nums = [1, 1, 0, 1, 1, 1]
 // console.log(findMaxConsucutiveOnes(nums))
+
+
+// ***********  16th day practice   **************
+
+// var moveZeroes = function(nums) {
+//     let x = 0;
+//     for(let i = 0; i < nums.length; i++){
+//         if(nums[i]  !== 0){
+//             nums[x]  = nums[i]
+//             x = x + 1
+//         }
+//     }
+//     for(let i = x; i < nums.length; i++){
+//         nums[i] = 0;
+//     }
+// };
+
+
+// var findMaxConsecutiveOnes = function(nums) {
+//     let currentCount = 0;
+//     let maxCount = 0;
+//     for(let i = 0; i < nums.length; i++){
+//         if(nums[i] === 1){
+//             currentCount++
+//         }
+//         else{
+//             maxCount = Math.max(maxCount, currentCount)
+//             currentCount = 0;
+//         }
+//     }
+//     return Math.max(maxCount, currentCount)
+// };
+
+// function findMisingNUmber(nums) {
+//     let n = nums.length;
+//     let expectedSum = n * (n + 1) / 2
+//     let actualSum = 0;
+//     for (let i = 0; i < n; i++){
+//         actualSum += nums[i]
+//     }
+//     return expectedSum - actualSum
+// }
+
+// let nums = [1, 0, 4, 2, 5,3,7];
+// console.log(findMisingNUmber(nums))
