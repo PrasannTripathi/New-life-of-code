@@ -1197,3 +1197,62 @@
 
 // let nums = [1, 0, 4, 2, 5,3,7];
 // console.log(findMisingNUmber(nums))
+
+// ********************* 17th day practice ********************
+
+// function singalNumber(nums) {
+//     let hash = {};
+//     for (let i = 0; i < nums.length; i++){
+//         if (!hash[nums[i]]) {
+//             hash[nums[i]] = 1
+//         }
+//         else {
+//             hash[nums[i]]++
+//         }
+//     }
+//     for (let i = 0; i < nums.length; i++){
+//         if (hash[nums[i]] === 1) {
+//             return nums[i]
+//         }
+//     }
+
+// }
+
+// let nums = [2, 3, 3, 4, 6, 2, 5, 5,4]
+// console.log(singalNumber(nums))
+
+// function singalNumber(nums) {
+//     let xor = 0;
+//     for (let i = 0; i < nums.length; i++){
+//         xor ^= nums[i]
+//     }
+
+//     return xor
+// }
+
+// let nums = [2, 3, 3, 4, 6, 2, 5, 5,4]
+// console.log(singalNumber(nums))
+
+
+// ********* PRINT N TO 1 USING RECURSION****************
+
+// function print(nums) {
+//     if (nums === 0) return;   // Base case
+//     console.log(nums)
+//     print(--nums)   // Recursive call with nums - 1
+// }
+// let nums = 5;
+// print(nums)
+
+
+
+// ********* PRINT 1 TO n USING RECURSION****************
+
+// function print(nums) {
+//     if (nums === 5) return;   // Base case
+//     nums++
+//     console.log(nums)
+//     print(nums)
+// }
+// let nums = 0;
+// print(nums)
