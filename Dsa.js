@@ -1256,3 +1256,45 @@
 // }
 // let nums = 0;
 // print(nums)
+
+
+// *************** 18th day practice ************
+
+// let arr = [5, 3, 2, 0, 1];
+
+// function sum(n) {
+//     if (n === 0) return arr[0]
+
+//     return arr[n] + sum(n-1)
+// }
+
+// console.log(sum(arr.length-1))
+
+
+// let arr = [5, 3, 2, 10, 5];
+
+// function sumOdd(n) {
+//     if (n < 0) return 0;
+//     if (arr[n] % 2 !== 0) {
+//         return arr[n] + sumOdd(n-1)
+//     }
+//     else {
+//         return sumOdd(n-1)
+//     }
+// }
+
+// console.log(sumOdd(arr.length-1))
+
+// let arr = [5, 3, 2, 10, 5];
+
+// function sumEven(n) {
+//     if (n < 0) return 0;
+//     if (arr[n] % 2 === 0) {
+//         return arr[n] + sumEven(n-1)
+//     }
+//     else {
+//         return sumEven(n-1)
+//     }
+// }
+
+// console.log(sumEven(arr.length-1))
