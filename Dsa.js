@@ -1298,3 +1298,6 @@
 // }
 
 // console.log(sumEven(arr.length-1))
+
+
+// prasann Tripathi
