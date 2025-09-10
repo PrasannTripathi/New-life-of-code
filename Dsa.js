@@ -1300,4 +1300,87 @@
 // console.log(sumEven(arr.length-1))
 
 
-// prasann Tripathi
+// ***************** 19th day practice ********************
+
+// function sumFirstNNumber(n) {
+//     let sum = 0;
+//     for (let i = 0; i <= n; i++){
+//         sum += i
+//         console.log(sum)
+//     }
+
+//     return sum
+// }
+// console.log(sumFirstNNumber(7))
+
+
+// function sum(n) {
+//     if (n === 0) return 0;
+//     return  n + sum(n-1)
+// }
+// console.log(sum(8))
+
+
+// let arr = [1, 2, 0, 5, 3, 4, 6]
+
+// function sum(n) {
+//     if (n === 0) return arr[0]
+//     return arr[n] + sum(n-1)
+// }
+
+// console.log(sum(arr.length-1))
+
+
+// let arr = [1, 2, 0, 5, 3, 4, 6, 7,9]
+
+// function sumOdd(n) {
+//     if (n === 0) return arr[0]
+//     if (arr[n] % 2 !== 0) {
+//         return arr[n] + sumOdd(n-1)
+//     }
+//     else {
+//         return sumOdd(n-1)
+//     }
+// }
+
+// console.log(sumOdd(arr.length - 1))
+
+// function factorialN(n) {
+//     let factorial = 1;
+//     for (let i = 1; i <= n; i++){
+//         factorial *= i
+//     }
+
+//     return factorial
+// }
+
+// console.log(factorialN(5))
+
+
+// function factorialN(n) {
+//     if (n === 0) return 1
+//     return n * factorialN(n-1)
+// }
+// console.log(factorialN(6))
+
+
+// function power2(n) {
+//     if (n < 1) return false
+//     while (n > 1) {
+//         if (n % 2 !== 0) {
+//             return false
+//         }
+//         n = n/2
+//     }
+//     return true
+// }
+
+// console.log(power2(8))
+
+// function power2(n) {
+//     if (n === 1) return true;
+//     if (n < 1 || n % 2 !== 0)  return false
+//     return power2(n/2)
+// }
+
+// console.log(power2(9))
